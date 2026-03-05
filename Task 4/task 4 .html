@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whispers of Greenland</title>
+
+<style>
+
+body{
+    background-color:#213C51;
+}
+
+/* Navigation */
+nav ul{
+    display:flex;
+    justify-content:start;
+}
+
+a{
+    padding:9px;
+}
+
+.one,.two,.three{
+    color:#d3d7ac;
+    text-align:center;
+    font-family:cursive;
+}
+
+/* Aligning the images*/
+.contextdiv{
+    padding:30px;
+    margin-top:10px;
+    border-style:ridge;
+    border-color:#1a314b54;
+    border-radius:2px;
+    border-width:5px;
+    position:relative;
+    top:-15px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:250px;
+    justify-content:center;
+}
+
+/* Adding the Polaroid (Box)*/
+
+.land,.Gate,.valley,.water{
+
+    background-color:#829aa88f;
+    padding:20px;
+    width:400px;
+    border-radius:30px;
+    text-align:center;
+}
+
+/* assembling the images */
+
+.land img,
+.Gate img,
+.valley img,
+.water img{
+
+    background-color:black;
+    width:250px;
+    height:250px;
+    padding:2px;
+    border-radius:20px;
+    object-fit:cover;
+}
+
+/* design to the text */
+
+.feedback,.golden,.river,.fall{
+    color:#25343F;
+    text-align:center;
+    background-color:#a0b4bd;
+    padding:5px;
+}
+
+/* Add to basket button*/
+
+.basket{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px;
+    background-color:#5b7d8f;
+    color:white;
+    text-decoration:wavy;
+    border-radius:6px;
+}
+
+/* Cart icon */
+
+.cart img{
+    width:25px;
+    height:25px;
+    position:absolute;
+    right:40px;
+    top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<nav>
+<ul>
+<a href="Home.html" class="one"> Home</a>
+<a href="About.html" class="two"> About</a>
+<a href="Navigation.html" class="three"> Navigation</a>
+</ul>
+</nav>
+
+<div class="cart">
+<img src="shopping.svg" alt="shopping">
+</div>
+
+</div>
+
+<div class="contextdiv">
+
+<div class="land">
+<img src="OceanPhoto.jpg" alt="Greenland">
+<p class="feedback">
+This was from a fabulous trip to the cost of Greenland with my family. The water was lovely-but very cold.
+</p>
+<a class="basket" href="Add to basket.html">Add to basket</a>
+</div>
+
+<div class="Gate">
+<img src="BridgePhoto.jpg" alt="bridge">
+<p class="golden">
+A picture of the Golden Gate Bridge. New York! New York!
+</p>
+<a class="basket" href="Add to basket.html">Add to basket</a>
+</div>
+
+<div class="valley">
+<img src="ValleyPhoto.jpg" alt="valley">
+<p class="river">
+Another great photo from Greenland.It's a river valley where a glacier used to be.
+</p>
+<a class="basket" href="Add to basket.html">Add to basket</a>
+</div>
+
+<div class="water">
+<img src="WaterfallPhoto.jpg" alt="waterfall">
+<p class="fall">
+The waterfall made such a lovely sound. I could have fallen asleep.
+</p>
+<a class="basket" href="Add to basket.html">Add to basket</a>
+</div>
+
+</div>
+
+<hr style="color:#0412206b; border:solid;">
+
+<footer style="color:darkgrey; font-size:30px; font-family:Georgia, 'Times New Roman', Times, serif">
+Copyright The Wondering Photograper 2018
+</footer>
+
+</body>
+</html>
